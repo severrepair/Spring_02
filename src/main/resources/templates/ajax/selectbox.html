@@ -19,10 +19,14 @@
           type: "post",
           data: datas,
           success: function (data) {
-            let selBox = $("#sel2");
+            let selBox1 = $("#sel2");
+            let selBox2 = $("#sel3");
 
-            selBox.empty();
-            selBox.append("<option>선택하세요</option>");
+            selBox2.empty();
+            selBox2.append("<option>선택하세요</option>");
+
+            selBox1.empty();
+            selBox1.append("<option>선택하세요</option>");
 
             for (let i = 0; i < data.length; i++) {
               selBox.append("<option>" + data[i].areaName + "</option>");

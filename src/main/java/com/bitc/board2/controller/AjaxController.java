@@ -132,9 +132,75 @@ public class AjaxController {
         AreaDto ad1 = new AreaDto();
         AreaDto ad2 = new AreaDto();
 
-//        switch (){
-//
-//        }
+        switch (area) {
+            case "강서구":
+                ad1.setAreaName("강서1동");
+                ad2.setAreaName("강서2동");
+                break;
+            case "강북구":
+                ad1.setAreaName("강북1동");
+                ad2.setAreaName("강북2동");
+                break;
+            case "강동구":
+                ad1.setAreaName("강동1동");
+                ad2.setAreaName("강동2동");
+                break;
+            case "강남구":
+                ad1.setAreaName("강남1동");
+                ad2.setAreaName("강남2동");
+                break;
+
+            case "동구":
+                ad1.setAreaName("동1동");
+                ad2.setAreaName("동2동");
+                break;
+            case "중구":
+                ad1.setAreaName("중1동");
+                ad2.setAreaName("중2동");
+                break;
+            case "서구":
+                ad1.setAreaName("서1동");
+                ad2.setAreaName("서2동");
+                break;
+            case "유성구":
+                ad1.setAreaName("유성1동");
+                ad2.setAreaName("유성2동");
+                break;
+
+            case "달서구":
+                ad1.setAreaName("달서1동");
+                ad2.setAreaName("달서2동");
+                break;
+            case "달서군":
+                ad1.setAreaName("달서1읍");
+                ad2.setAreaName("달서2읍");
+                break;
+            case "수성구":
+                ad1.setAreaName("수성1동");
+                ad2.setAreaName("수성2동");
+                break;
+            case "대덕구":
+                ad1.setAreaName("대덕1동");
+                ad2.setAreaName("대덕2동");
+                break;
+
+            case "해운대구":
+                ad1.setAreaName("우동1동");
+                ad2.setAreaName("우동2동");
+                break;
+            case "부산진구":
+                ad1.setAreaName("전포1동");
+                ad2.setAreaName("전포2동");
+                break;
+            case "동래구":
+                ad1.setAreaName("온천1동");
+                ad2.setAreaName("온천2동");
+                break;
+            case "영도구":
+                ad1.setAreaName("청학1동");
+                ad2.setAreaName("청학2동");
+                break;
+        }
 
         areaList.add(ad1);
         areaList.add(ad2);
